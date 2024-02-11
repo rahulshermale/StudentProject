@@ -1,0 +1,24 @@
+package com.example;
+
+import java.util.List;
+
+public class StudentService {
+
+	public static List<Student> FetchStudent() throws Exception {
+		List<Student> allStudent=StudentDao.FetchStudent();
+//		List<Student> allStudent=StudentDao.FetchStudent();
+for (Student student : allStudent) {
+	
+	if (!student.getName().startsWith("R")) {
+		
+		allStudent.remove(student);
+	}
+	
+}
+		
+		
+		return allStudent;
+	}
+
+
+}

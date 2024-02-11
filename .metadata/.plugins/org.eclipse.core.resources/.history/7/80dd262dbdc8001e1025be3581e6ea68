@@ -12,7 +12,7 @@ public class StudentService {
 
 			if (student.getName().startsWith("R")) {
 
-				allStudent2.add(student);
+				allStudent.remove(student);
 			}
 
 		}
