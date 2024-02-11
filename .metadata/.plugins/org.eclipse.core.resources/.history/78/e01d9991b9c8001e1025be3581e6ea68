@@ -24,9 +24,7 @@ public class StudentDao {
 
 			int id = rst.getInt(1);
 			String name = rst.getString(2);
-			int age=rst.getInt(3);
-			String address=rst.getString(4);
-			Student s1 = new Student(id, name,age,address);
+			Student s1 = new Student(id, name);
 			alist.add(s1);
 
 		}

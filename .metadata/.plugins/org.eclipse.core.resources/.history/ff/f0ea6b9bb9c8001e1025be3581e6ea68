@@ -9,13 +9,6 @@ public class Student {
 	
 	
 	
-	public Student(int id, String name, int age, String address) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.age = age;
-		Address = address;
-	}
 	public int getAge() {
 		return age;
 	}
@@ -40,7 +33,11 @@ public class Student {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+	public Student(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
 	public Student() {
 		super();
 		// TODO Auto-generated constructor stub

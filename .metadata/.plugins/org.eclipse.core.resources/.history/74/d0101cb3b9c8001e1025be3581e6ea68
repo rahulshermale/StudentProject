@@ -11,11 +11,6 @@ public static void main(String[] args) throws Exception {
 		
 		System.out.println(student.getId());
 		System.out.println(student.getName());
-		student.setAge(22);
-		student.setAddress("Juhu,Mumbai");
-		System.out.println(student.getAge());
-		
-		System.out.println(student.getAddress());
 	}
 	}
 }
