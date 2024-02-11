@@ -1,0 +1,23 @@
+package pack;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class BuildMerch {
+
+	public List<Merchent> build(){
+		
+		List<Merchent> listMerchnt=new ArrayList<>();
+		
+		listMerchnt.add(new Merchent(10,"infoysys"));
+		listMerchnt.add(new Merchent(20,"TCS"));
+		
+		listMerchnt.add(new Merchent(10,"infoysys"));
+		listMerchnt.add(new Merchent(20,"TCS"));
+		
+		listMerchnt.add(new Merchent(10,"infoysys"));
+		listMerchnt.add(new Merchent(20,"TCS"));
+		
+		return listMerchnt;
+	}
+}

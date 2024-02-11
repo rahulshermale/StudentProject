@@ -1,0 +1,20 @@
+package pack;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class BuildMerch {
+
+	public List<Merchent> build() {
+
+		List<Merchent> listMerchnt = new ArrayList<>();
+
+		Bank b = new Bank(10, "Maha");
+		Merchent m1 = new Merchent(10, "Info", b);
+
+		listMerchnt.add(m1);
+		return listMerchnt;
+		
+		
+	}
+}

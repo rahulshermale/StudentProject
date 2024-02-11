@@ -1,0 +1,22 @@
+package pack;
+
+import java.util.Iterator;
+import java.util.List;
+
+public class Retrive {
+
+	public static void main(String[] args) {
+		
+		BuildMerch bm=new BuildMerch();
+		
+	List<Merchent> lmerch=	bm.build();
+		
+	for(Merchent mbr:lmerch) {
+		
+		System.out.println(mbr.getId());
+		System.out.println(mbr.getName());
+		System.out.println(mbr);
+	}
+	
+	}
+}

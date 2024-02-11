@@ -1,0 +1,14 @@
+package com.example;
+
+import java.util.List;
+
+public class Clientstd {
+public static void main(String[] args) {
+	
+	List<Student> allStudent=StudentController.FetchStudent();
+	
+	for (Student student : allStudent) {
+		
+		System.out.println();
+	}
+}

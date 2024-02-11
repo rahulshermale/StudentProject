@@ -1,0 +1,11 @@
+package pack;
+
+public class Bank {
+	private int id;
+	private String Name;
+	public Bank() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}

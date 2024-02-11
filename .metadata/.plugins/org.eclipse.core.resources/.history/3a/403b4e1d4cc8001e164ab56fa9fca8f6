@@ -1,0 +1,42 @@
+package pack;
+
+import java.util.List;
+
+public class Merchent {
+
+	private int id;
+	private String Name;
+	private List<Bank> bank;
+	public Merchent() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Merchent(int id, String name) {
+		super();
+		this.id = id;
+		Name = name;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return Name;
+	}
+
+	public void setName(String name) {
+		Name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Merchent [id=" + id + ", Name=" + Name + "]\n";
+	}
+
+}
