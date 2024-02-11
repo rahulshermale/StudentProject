@@ -17,7 +17,7 @@ public class StudentService {
 
 		}
 
-		return allStudent2;
+		return allStudent;
 	}
 
 }

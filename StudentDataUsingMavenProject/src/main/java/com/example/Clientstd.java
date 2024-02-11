@@ -9,13 +9,13 @@ public static void main(String[] args) throws Exception {
 	
 	for (Student student : allStudent) {
 		
-		System.out.println(student.getId());
-		System.out.println(student.getName());
-		student.setAge(22);
-		student.setAddress("Juhu,Mumbai");
-		System.out.println(student.getAge());
+		System.out.print(student.getId()+" ");
+		System.out.print(student.getName()+" ");
+
+		System.out.print(student.getAge()+" ");
 		
-		System.out.println(student.getAddress());
+		System.out.print(student.getAddress()+" ");
+		System.out.println();
 	}
 	}
 }
